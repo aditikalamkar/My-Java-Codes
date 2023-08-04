@@ -1,28 +1,28 @@
 package BasicProgramming;
-class A
+class Aa
 {
-	public A()
+	public Aa()
 	{
 		super();
-		System.out.println("In A");
+		System.out.println("In Aa");
 	}
 	
-	public A(int n)
+	public Aa(int n)
 	{
 		super();
 		System.out.println("In A Int");
 	}
 }
 
-class B extends A
+class Bb extends Aa
 {
-	public B()
+	public Bb()
 	{
 		//super(5);
 		super();
 		System.out.println("In B ");
 	}
-	public B(int n)
+	public Bb(int n)
 	{
 		//super(); call default constructor of super class (Here class A)
 		//super(n);
@@ -34,6 +34,6 @@ public class superKeyword {
 
 	public static void main(String args[])
 	{
-		B obj = new B();
+		Bb obj = new Bb();
 	}
 }

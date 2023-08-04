@@ -1,6 +1,6 @@
 package BasicProgramming;
 //Method Overloading with different number of argument
-class demo
+class Number
 {
 	public int add(int n1, int n2)
 	{
@@ -17,7 +17,7 @@ public class MethodOver2 {
 	
 	public static void main(String [] args)
 	{
-		demo obj = new demo();
+		Number obj = new Number();
 		int res = obj.add(10, 100);
 		int res3 = obj.add(10, 100,14);
 		System.out.println("Addition of two numbers :" +res);
