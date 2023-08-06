@@ -20,6 +20,6 @@ public class MethodOverriding {
 	Advoverride obj = new Advoverride();
 	int r1 = obj.add(5, 4);
 	//.System.LoggerFin
-	System.out.println(r1);
+	//System.out.println(r1);
 	
 }
