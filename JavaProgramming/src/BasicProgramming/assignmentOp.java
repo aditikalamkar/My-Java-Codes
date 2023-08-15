@@ -6,12 +6,11 @@ public class assignmentOp {
 		int num = 14;
 		//post increment
 		
-		int result = num ++;
+		num ++;
 		
 		System.out.println("Post Increment " +num);
 		
-		//Pre increment
-		int res = ++num;
+		++num;
 		
 		System.out.println("Pre Increment " +num);
 	}

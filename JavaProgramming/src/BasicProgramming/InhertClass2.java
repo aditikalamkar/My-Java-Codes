@@ -36,6 +36,7 @@ public class InhertClass2 {
 		int r4 = obj.add(20,100);
 		
 		System.out.println(r1 +" " +r2);
+		System.out.println(r3 +" " +r4);
 	}
 
 }

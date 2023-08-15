@@ -34,6 +34,7 @@ public class superKeyword {
 
 	public static void main(String args[])
 	{
-		Bb obj = new Bb();
+		//Bb obj = new Bb();
+	
 	}
 }

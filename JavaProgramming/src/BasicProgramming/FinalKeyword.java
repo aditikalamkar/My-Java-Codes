@@ -1,4 +1,8 @@
 //Final variable
+/*The final keyword is a non-access 
+ * modifier used for classes, attributes and methods,
+ *  which makes the non-changeable (impossible to inherit or override)
+ */
 package BasicProgramming;
 class car 
 {

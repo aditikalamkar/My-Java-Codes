@@ -14,5 +14,6 @@ public class Conversion {
         float f = 5.6f;
         int i = (int) f;
         System.out.println(i);
+        
     }
 }
